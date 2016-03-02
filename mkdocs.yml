@@ -1,0 +1,36 @@
+site_name: AppGain Developers Knowledge Base
+
+pages:
+  - index.md
+  - Server Setup and Configuration:
+    - server-setup/inital-configuration.md
+    - server-setup/seting-up-nginx-server.md
+    - Seting Up a Node.js Application for Production: 'server-setup/nodejs-server.md'
+    - SSL Using Let's Encrypt:  'server-setup/letsencrypt.md'
+    - Installing MongoRocks: 'server-setup/mongodb+rocksdb.md'
+  - parse-server.md
+
+
+theme: readthedocs
+extra_css: [styles.css]
+use_directory_urls: true
+markdown_extensions:
+  - extra
+    # - abbr: true
+    # - attr_list: true
+    # - def_list: true
+    # - fenced_code: true # default
+    # - footnotes: true
+    # - tables: true # default
+    # - smart_strong: true
+  - admonition
+  - codehilite:
+      guess_lang: true
+      # linenums: true
+  - meta # default
+  - nl2br
+  - sane_lists
+  - smarty
+  - toc # default
+  - wikilinks
+  - pymdownx.pymdown
